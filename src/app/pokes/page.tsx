@@ -26,20 +26,7 @@ type PokemonCard = {
    IDS A MOSTRAR
 ======================= */
 
-const pokemonIds = [
-  7,
-  6,
-  68,
-  149,
-  54,
-  143,
-  448,
-  25,
-  94,
-  445,
-  849,
-  493,
-];
+const pokemonIds = Array.from({ length: 151 }, (_, i) => i + 1); // 1–20
 
 /* =======================
    FETCH POKEMON
